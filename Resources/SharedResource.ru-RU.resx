@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage" xml:space="preserve">
+    <value>&lt;span&gt;Каждая компания стремится к тому, чтобы операции, выполняемые в ходе ее хозяйственной деятельности, в первую очередь соответствовали действующему законодательству и нормативным правовым актам, а также были осмысленными и правильно отражались в финансовой отчетности.Нежалающие предприниматели, могут не прочитать наши следующие мысли…&lt;/span&gt; Это означает, что система учёта не зависит от отдельных выгод, имеет минимальное влияние человеческого фактора и максимальную степень автоматизации, что обеспечивает более надёжную и точную информацию.</value>
+  </data>
+  <data name="AboutPage10" xml:space="preserve">
+    <value>Уверенность в своевременной, правильной и безрисковой подаче отчетов в компетентные органы государственных служб по вопросам обязательств.</value>
+  </data>
+  <data name="AboutPage11" xml:space="preserve">
+    <value>Именно с помощью данной учетной системы обеспечивается оперативное и обоснованное предоставление цифровых ответов на проверочные запросы, письма и обращения органов государственной службы.</value>
+  </data>
+  <data name="AboutPage12" xml:space="preserve">
+    <value>Предоставление точных финансовых данных за год, которые отражают бизнес не так, как хотят видеть управляющие, а именно основываясь по результату руководства для заинтересованных сторон.</value>
+  </data>
+  <data name="AboutPage2" xml:space="preserve">
+    <value>Основываясь на нашем 10-летнем опыте в этой сфере, мы уверенно можем сказать, что применение автоматизации и программного обеспечения в области производства, обслуживания и продаж предприятий позволило нам изучить операционную деятельность организаций, выявить их слабые и сильные стороны, риски и неопределенности, исходя из чего мы успешно разработали более совершенные решения и обеспечили их управление в нашей учетной системе.</value>
+  </data>
+  <data name="AboutPage3" xml:space="preserve">
+    <value>Что нам даёт выполнение учёта по этой методике?</value>
+  </data>
+  <data name="AboutPage4" xml:space="preserve">
+    <value>Отражение операций предприятия на ежедневной основе.</value>
+  </data>
+  <data name="AboutPage5" xml:space="preserve">
+    <value>Легкость принятия оперативных управленческих решений.</value>
+  </data>
+  <data name="AboutPage6" xml:space="preserve">
+    <value>Наличие точного прогноза результатов по итогам месяца.</value>
+  </data>
+  <data name="AboutPage7" xml:space="preserve">
+    <value>Шанс получить данные о текущем месяце в течение одного-двух дней после его окончания.</value>
+  </data>
+  <data name="AboutPage8" xml:space="preserve">
+    <value>Возможность более быстрой проверки результатов вашей деятельности и наличие реальных, достоверных цифр.</value>
+  </data>
+  <data name="AboutPage9" xml:space="preserve">
+    <value>Возможность оптимизиации бизнес-процессов, внесение изменений и принятие существенных решений на основе ежеквартальных финансовых данных до результатов текущего года.</value>
+  </data>
+  <data name="AboutSection" xml:space="preserve">
+    <value>О НAC</value>
+  </data>
+  <data name="AboutSection2" xml:space="preserve">
+    <value>Каждая компания стремится к тому, чтобы операции, выполняемые в ходе ее хозяйственной деятельности, в первую очередь соответствовали действующему законодательству и нормативным правовым актам, а также были осмысленными и правильно отражались в финансовой отчетности. &lt;span&gt;Нежалающие предприниматели, могут не прочитать наши следующие мысли…&lt;/span&gt;</value>
+  </data>
+  <data name="AboutSection3" xml:space="preserve">
+    <value>Основываясь на нашем 10-летнем опыте в этой сфере, мы уверенно можем сказать, что применение автоматизации и программного обеспечения в области производства, обслуживания и продаж предприятий позволило нам изучить операционную деятельность организаций, выявить их слабые и сильные стороны, риски и неопределенности, исходя из чего мы успешно разработали более совершенные решения и обеспечили их управление в нашей учетной системе.</value>
+  </data>
+  <data name="accountingpage" xml:space="preserve">
+    <value>Учетная полититка предприятий</value>
+  </data>
+  <data name="accountingpage2" xml:space="preserve">
+    <value>Уважаемые предприниматели, мы можем вас уверить, что в наши дни существует достаточно малых, средних и крупных субъектов предпринимательства, которые функционируют без учетной политики. Действительно, компании могут быть  управляемыми, контролируемыми, приносящими прибыль и тд. даже без учетной политики. Интересно, а что представляет собой политика учета? Кому, для чего и зачем это нужно? 
+Если мы посмотрим на наше законодательство о бухгалтерском учете – Политика учета - это конкретные принципы, основы, условия и методы, применяемые субъектами бухгалтерского учета при подготовке и представлении финансовой отчетности.</value>
+  </data>
+  <data name="accountingpage3" xml:space="preserve">
+    <value>На каждом предприятии к этим принципам, основам и условиям относятся по-разному. С использованием данного подхода проводятся финансовые операции, представляются отчеты и, в итоге, обсуждаются правильные или неправильные финансовые результаты с разногласиями во мнениях... 
+Однако опытные предприниматели не должны подходить таким образом.
+Мы разработаем для вас, основанное на существующих законодательных актах современное программное обеспечение, с помощью которого автоматически будет формироваться, обсуждаться и утверждаться Учетная политика. Рабочий механизм, связанный с финансовыми результатами избыточной деятельности – Учетная политика не обсуждается. Фокус ресурсов и потенциала смещается на другие аспекты.</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="Footer1" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Footer10" xml:space="preserve">
+    <value>Имя, фамилия</value>
+  </data>
+  <data name="Footer11" xml:space="preserve">
+    <value>Услуги</value>
+  </data>
+  <data name="Footer12" xml:space="preserve">
+    <value>«Siesco» - Bсе права защищены.</value>
+  </data>
+  <data name="Footer2" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Footer3" xml:space="preserve">
+    <value>&lt;span&gt;Запрос&lt;/span&gt; обратной связи</value>
+  </data>
+  <data name="Footer4" xml:space="preserve">
+    <value>Желали бы вы провести телефонный разговор с одним из наших консультантов? &lt;br&gt; Просто отправьте свои данные, мы свяжемся с вами в ближайшее время. Вы также можете отправить нам электронное письмо.</value>
+  </data>
+  <data name="Footer5" xml:space="preserve">
+    <value>Провести обсуждение</value>
+  </data>
+  <data name="Footer6" xml:space="preserve">
+    <value>Финансовый или налоговый учет</value>
+  </data>
+  <data name="Footer7" xml:space="preserve">
+    <value>Аудит</value>
+  </data>
+  <data name="Footer8" xml:space="preserve">
+    <value>Налоговые или Юридические консультации</value>
+  </data>
+  <data name="Footer9" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="generalservices" xml:space="preserve">
+    <value>Ведение бухгалтерии и налогового учета</value>
+  </data>
+  <data name="generalservices10" xml:space="preserve">
+    <value>Управление движимым и недвижимым имуществом каждой организации является ключевым инструментом ведения деятельности. Решения, связанные с инвентаризацией, принимаются исключительно на основе результатов инвентаризации. Сравнение данных учета материальных, нематериальных, краткосрочных и долгосрочных инвентарных позиций с фактическими данными о количестве, демонстрирует свою эффективность при работе не с внутренними сотрудниками, a со сторонними (нейтральными) лицами.</value>
+  </data>
+  <data name="generalservices11" xml:space="preserve">
+    <value>Проведение внутреннего аудита</value>
+  </data>
+  <data name="generalservices12" xml:space="preserve">
+    <value>Будучи исполнителем хозяйственных операций, при обеспечении заинтересованных сторон, утвержденные операции, осознанно или нет, отражаются в учетных регистрах. Проведение же внутреннего аудита обеспечивает Вам уверенность. Уверенность в том, что те, кто преднамеренно совершал это, скорректированы  и наказаны, а те, кто по незнанию, также были исправлены и привлечены к тренингам.</value>
+  </data>
+  <data name="generalservices13" xml:space="preserve">
+    <value>Подготовка и утверждение аудиторской оценки</value>
+  </data>
+  <data name="generalservices14" xml:space="preserve">
+    <value>Если взглянем на гражданский кодекс: 91.4. Общество с ограниченной ответственностью (кроме субъектов микро и малого бизнеса) обязан ежегодно привлекать независимого аудитора (внешний аудит) для проверки точности своей годовой финансовой отчетности. Аудит годовой финансовой отчетности общества может быть проведен по требованию любого участника. В этом случае аудиторская проверка осуществляется за счет участника, запросившего проверку. Порядок проведения аудиторских проверок деятельности общества определяется законодательством и уставом общества.
+Здесь ежегодное аудиторское заключение распространяется на все организации, за исключением субъектов микро и малого бизнеса. Это обязательно. Однако являющиеся добровольными исключениями субъекты предпринимательства, также могут получить независимое аудиторское заключение.</value>
+  </data>
+  <data name="generalservices15" xml:space="preserve">
+    <value>Подготовка финансовой отчетности</value>
+  </data>
+  <data name="generalservices16" xml:space="preserve">
+    <value>Ежемесячные, квартальные, годовые финансовые отчеты интересны каждому предпринимателю. Поскольку источник, состав и расположение экономических активов можно просмотреть в Балансовом или Финансовом отчете, операции с доходом или убытком - в отчете о Прибылях и Убытках, движение денежных средств - в отчете о Денежных средствах, а увеличение или уменьшение капитала в отчете об изменениях Капитала.</value>
+  </data>
+  <data name="generalservices2" xml:space="preserve">
+    <value>Это является отражением операций происходящих в хозяйствующих субъектах, их учет в бухгалтерских записях, обязательное ведение необходимой учетной информации согласно национальному и бухгалтерскому законодательству, правильное подсчет налогов и других обязательств, своевременную подачу отчетности и надежное получение взаимосвязанной и актуальной информации в учете.</value>
+  </data>
+  <data name="generalservices3" xml:space="preserve">
+    <value>Ведение управленческого и финансового учета</value>
+  </data>
+  <data name="generalservices4" xml:space="preserve">
+    <value>У предпринимателей есть собственные подходы к ведению бизнеса, что иногда приводит к формированию разнообразных учетных политик, иногда менее, иногда более различных. С помощью управления и финансовой отчетности обнаружение расхождений становится более точным, надежным и позволяет принимать успешные бизнес-решения.</value>
+  </data>
+  <data name="generalservices5" xml:space="preserve">
+    <value>Восстановление и пересоздание учета</value>
+  </data>
+  <data name="generalservices6" xml:space="preserve">
+    <value>Часто руководители и управленцы достигают прогресса в работе, уделяя важное значение расширению доли рынка и сохранению конкурентоспособности. Однако при взгляде назад на пройденный путь, запутанные бухгалтерские данные или упущенные неотраженные данные могут нарушить следующие планы развития. Процесс восстановления учета во время пост-периода включает в себя определение источников операций, их природы, а так же правильное размещение, обеспечивая восстановление и пересоздание учета.</value>
+  </data>
+  <data name="generalservices7" xml:space="preserve">
+    <value>Оплата труда и управление персоналом.</value>
+  </data>
+  <data name="generalservices8" xml:space="preserve">
+    <value>В современное время человеческий капитал является важнейшим элементом предприятий. Управление ими, корректность расчетов с работниками, их оценка - все это в одном слове, Управление кадрами - осуществляется современными системами, обеспечивающими все виды взаимодействия, трудовым законодательством и другими нормативными правовыми актами, защищающими права работников и обеспечивающими более эффективную деловую деятельность.</value>
+  </data>
+  <data name="generalservices9" xml:space="preserve">
+    <value>Ведение инвентаризационной работы</value>
+  </data>
+  <data name="l1" xml:space="preserve">
+    <value>fr-FR</value>
+  </data>
+  <data name="l2" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="Lang1" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="Lang2" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="Lang3" xml:space="preserve">
+    <value>AZ</value>
+  </data>
+  <data name="PartnerPage" xml:space="preserve">
+    <value>Мы предлагаем клиентам специально разработанные решения для достижения успеха в их бизнесе.</value>
+  </data>
+  <data name="PartnerSection" xml:space="preserve">
+    <value>НАШИ КЛИЕНТЫ</value>
+  </data>
+  <data name="preference" xml:space="preserve">
+    <value>Каковы преимущества нашего сотрудничества:</value>
+  </data>
+  <data name="preference2" xml:space="preserve">
+    <value>Соответствующая современным требованиям, автоматизированная система учета</value>
+  </data>
+  <data name="preference3" xml:space="preserve">
+    <value>Уведомления о ваших онлайн учетных данных с использованием современных инструментов</value>
+  </data>
+  <data name="preference4" xml:space="preserve">
+    <value>Задавать вопросы по данным онлайн учета</value>
+  </data>
+  <data name="preference5" xml:space="preserve">
+    <value>Прослушивать данные, советы и рекомендации квалифицированных кадров, специализирующихся в данной сфере.</value>
+  </data>
+  <data name="preference6" xml:space="preserve">
+    <value>Информироваться о ежемесячных, квартальных и годовых финансовых отчетах, включая Баланс, Доход и Убытки, а так же, движение денежных средств и изменения в Kапитале.</value>
+  </data>
+  <data name="preference7" xml:space="preserve">
+    <value>При неотложных ситуациях, анализ вашего бизнеса с использованием применяемых в мировой практике финансовых стандартов.</value>
+  </data>
+  <data name="preference8" xml:space="preserve">
+    <value>По вашему желанию, раздельный анализ и сравнение Налоговой и Управленческой учетной информации.</value>
+  </data>
+  <data name="preference9" xml:space="preserve">
+    <value>Представлять составленные отчеты и финансовые данные в государственных органах.</value>
+  </data>
+  <data name="ServicesSection" xml:space="preserve">
+    <value>НАШИ УСЛУГИ</value>
+  </data>
+  <data name="ServicesSection10" xml:space="preserve">
+    <value>Уважаемые предприниматели, мы можем вас уверить, что в наши дни существует достаточно малых, средних и крупных субъектов предпринимательства, которые функционируют без учетной политики.</value>
+  </data>
+  <data name="ServicesSection11" xml:space="preserve">
+    <value>Наши преимущества создают разницу!</value>
+  </data>
+  <data name="ServicesSection12" xml:space="preserve">
+    <value>Эта триада детально определяет стратегические процессы компании, устанавливая краткосрочные и долгосрочные цели. Данный процесс обычно контролируется главным финансовым директором компании. Вместо работы большой и объемной команды, решить задачи понятным языком программирования в наших руках.</value>
+  </data>
+  <data name="ServicesSection2" xml:space="preserve">
+    <value>Общие услуги</value>
+  </data>
+  <data name="ServicesSection3" xml:space="preserve">
+    <value>ОБЩИЕ УСЛУГИ</value>
+  </data>
+  <data name="ServicesSection4" xml:space="preserve">
+    <value>Начиная с бухгалтерии и налоговой отчетности, а заканчивая управлением и финансовой бухгалтерией, мы предоставляем комплексные услуги, охватывая все финансовые и управленческие потребности бизнеса.</value>
+  </data>
+  <data name="ServicesSection5" xml:space="preserve">
+    <value>Специальные услуги</value>
+  </data>
+  <data name="ServicesSection6" xml:space="preserve">
+    <value>СПЕЦИАЛЬНЫЕ УСЛУГИ</value>
+  </data>
+  <data name="ServicesSection7" xml:space="preserve">
+    <value>Наши консалтинговые услуги в области бюджетирования, планирования и оценки, особенно предоставляемой нами бухгалтерской услугой, помогают компаниям создавать и успешно реализовывать финансовые стратегии.</value>
+  </data>
+  <data name="ServicesSection8" xml:space="preserve">
+    <value>Учетная полититка предприятий</value>
+  </data>
+  <data name="ServicesSection9" xml:space="preserve">
+    <value>УЧЕТНАЯ ПОЛИТИТКА ПРЕДПРИЯТИЙ</value>
+  </data>
+  <data name="Slide" xml:space="preserve">
+    <value>УЧЕТНЫЕ И ФИНАНСОВЫЕ УСЛУГИ</value>
+  </data>
+  <data name="Slide2" xml:space="preserve">
+    <value>Каждая компания стремится к тому, чтобы операции, выполняемые в ходе ее хозяйственной деятельности, в первую очередь соответствовали действующему законодательству и нормативным правовым актам, а также были осмысленными и правильно отражались в финансовой отчетности. Нежалающие предприниматели, могут не прочитать наши следующие мысли…</value>
+  </data>
+  <data name="Slide3" xml:space="preserve">
+    <value>Ведение управленческого и финансового учета</value>
+  </data>
+  <data name="Slide4" xml:space="preserve">
+    <value>У предпринимателей есть собственные подходы к ведению бизнеса, что иногда приводит к формированию разнообразных учетных политик, иногда менее, иногда более различных. С помощью управления и финансовой отчетности обнаружение расхождений становится более точным, надежным и позволяет принимать успешные бизнес-решения.</value>
+  </data>
+  <data name="Slide5" xml:space="preserve">
+    <value>Подготовка и утверждение аудиторской оценки</value>
+  </data>
+  <data name="Slide6" xml:space="preserve">
+    <value>Если взглянем на гражданский кодекс: 91.4. Общество с ограниченной ответственностью (кроме субъектов микро и малого бизнеса) обязан ежегодно привлекать независимого аудитора (внешний аудит) для проверки точности своей годовой финансовой отчетности. Аудит годовой финансовой отчетности общества может быть проведен по требованию любого участника.</value>
+  </data>
+  <data name="specialservices" xml:space="preserve">
+    <value>Услуги персональной бухгалтерии</value>
+  </data>
+  <data name="specialservices10" xml:space="preserve">
+    <value>Предприниматели малых и средних бизнесов нуждаются в финансовых отчетах для правильной оценки конкурентоспособности и финансовых показателей. В большинстве случаев отчеты составляется главными бухгалтерами в соответствии с определенной бухгалтерской отчетностью и представляются руководству. Однако, это не то. Финансовый директор считается как руководитель, а сотрудник как лишний расход. Бухгалтеры проводят операции, главный бухгалтер завершает анализ и закрытие месяца, а услуги финансового директора предоставляют Вам надежные и соответствующие требованиям финансовые отчеты.</value>
+  </data>
+  <data name="specialservices11" xml:space="preserve">
+    <value>Услуги по бюджетированию, планированию и прогнозированию</value>
+  </data>
+  <data name="specialservices12" xml:space="preserve">
+    <value>Эта триада детально определяет стратегические процессы компании, устанавливая краткосрочные и долгосрочные цели. Данный процесс обычно контролируется главным финансовым директором компании. Вместо работы большой и объемной команды, решить задачи понятным языком программирования в наших руках.</value>
+  </data>
+  <data name="specialservices2" xml:space="preserve">
+    <value>Это отличное решение, когда требуется немедленно распределить возросшую рабочую нагрузку из-за условий работы, доступных сотрудников, выделенного бюджета или других причин, а так же, своевременно отразить учетные данные или выполнить специально заданные бухгалтерские работы.</value>
+  </data>
+  <data name="specialservices3" xml:space="preserve">
+    <value>Обеспечение предпринимателя данными онлайн учета</value>
+  </data>
+  <data name="specialservices4" xml:space="preserve">
+    <value>Предприниматели часто запрашивают определенное значение или интересуются остатками для принятия операционных решений. Когда ответственное лицо недоступно или информирует после просмотра на данные, теряется оперативность, а принятие операционных решений задерживается. Существуют информативные решения, которые позволяют  независимо от кого-либо принимать оперативные решения одним касанием.</value>
+  </data>
+  <data name="specialservices5" xml:space="preserve">
+    <value>Услуги по BI-аналитике</value>
+  </data>
+  <data name="specialservices6" xml:space="preserve">
+    <value>Бизнес-аналитика (BI) - это процесс анализа сложных наборов информации внутри компании, с целью определения рекомендаций для развития и улучшения бизнеса. Информация компании обрабатывается и предоставляется Вам с желаемой, понятной и c визуальной интерпретацией.</value>
+  </data>
+  <data name="specialservices7" xml:space="preserve">
+    <value>Услуги главного бухгалтера</value>
+  </data>
+  <data name="specialservices8" xml:space="preserve">
+    <value>В большинстве случаев микро и некоторые небольшие предпринимательские субъекты не имеют возможности всегда держать на штате "тяжелую артиллерию" в лице главного бухгалтера что лишает возможности быть уверенным в работе бухгалтеров – операторов в их подчинении. Они так же желают иметь собственную бухгалтерию, однако затруднительно. В этой ситуации наилучшим вариантом станет услуги главного бухгалтера.</value>
+  </data>
+  <data name="specialservices9" xml:space="preserve">
+    <value>Услуги финансового директора</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Главная страница</value>
+  </data>
+  <data name="Welcome10" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="Welcome11" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Welcome12" xml:space="preserve">
+    <value>Узнать больше</value>
+  </data>
+  <data name="Welcome13" xml:space="preserve">
+    <value>Г. Баку, ул Ахмеда Раджабли 183</value>
+  </data>
+  <data name="Welcome2" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Welcome3" xml:space="preserve">
+    <value>О компании</value>
+  </data>
+  <data name="Welcome4" xml:space="preserve">
+    <value>Наши клиенты</value>
+  </data>
+  <data name="Welcome5" xml:space="preserve">
+    <value>Наши услуги</value>
+  </data>
+  <data name="Welcome6" xml:space="preserve">
+    <value>Общие услуги</value>
+  </data>
+  <data name="Welcome7" xml:space="preserve">
+    <value>Специальные услуги</value>
+  </data>
+  <data name="Welcome8" xml:space="preserve">
+    <value>Политика учета</value>
+  </data>
+  <data name="Welcome9" xml:space="preserve">
+    <value>Преимущества</value>
+  </data>
+</root>

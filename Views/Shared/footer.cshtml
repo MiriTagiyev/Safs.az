@@ -1,0 +1,87 @@
+﻿<footer id="footer">
+    <div class="footer-info">
+        <div class="footer-info-part1">
+            <i class="fa-solid fa-location-dot"></i>
+            <div id="fot-about" class="footer-about">
+                <h4>@_localization.Getkey("Footer").Value</h4><br>
+                <a target="_blank" href="https://goo.gl/maps/QkVYsMHfuLhpMy9N6">@_localization.Getkey("Welcome13").Value</a>
+            </div>
+        </div>
+        <div class="footer-info-part1">
+            <i class="fa-solid fa-phone"></i>
+            <div class="footer-about">
+                <h4>@_localization.Getkey("Footer1").Value</h4><br>
+                <a href="tel:+994508543939">(+994) 50-854-39-39</a>
+            </div>
+        </div>
+        <div class="footer-info-part1">
+            <i class="fa-regular fa-envelope"></i>
+            <div class="footer-about">
+                <h4>@_localization.Getkey("Footer2").Value</h4><br>
+                <a href="mailto:office@siesco.az">office@safs.az</a>
+            </div>
+        </div>
+        <div class="footer-info-part1">
+            <i class="fa-solid fa-globe"></i>
+            <div class="footer-about">
+                <a href="https://www.linkedin.com/company/safs-consulting/?viewAsMember=true">wwww.linkedin.com/safs/</a>
+                <a href="https://www.instagram.com/siesco.agency/">wwww.facebook.com/safs/</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="footer-logo-img">
+                    <img src="/img/Logo1-removebg-preview.png" alt="SAFS">
+                </div>
+                <div class="footer-logo-tittle">
+                    <h3>@Html.Raw(_localization.Getkey("Footer3"))</h3>
+                </div>
+                <div class="footer-logo-about">
+                    <p>@Html.Raw(_localization.Getkey("Footer4"))</p>
+                </div>
+            </div>
+            <div class="footer-form">
+                <h5>@_localization.Getkey("Footer5").Value</h5>
+                <form action="/home/SendMessage"method="post">
+                    <div class="form-part1">
+                        <select name="subject" >
+                            <option>@_localization.Getkey("Footer6").Value</option>
+                            <option>@_localization.Getkey("Footer7").Value</option>
+                            <option>@_localization.Getkey("Footer8").Value</option>
+                            <option>@_localization.Getkey("Footer9").Value</option>
+                        </select>
+                        <input type="text" placeholder="@_localization.Getkey("Footer10").Value" name="namesurname" required >
+                    </div>
+                    <div class="form-part2">
+                        <input type="text" placeholder="@_localization.Getkey("Footer1").Value" name="number" required>
+                        <button>@_localization.Getkey("Welcome11").Value <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-law">
+    <div class="footer-law-wrapper">
+        <div class="law-part1">
+            <p>
+                <span id="year"></span> 
+            </p>
+        </div>
+        <div class="law-part2">
+            <ul>
+                <li><a href="/">@_localization.Getkey("Welcome").Value</a></li>
+                <li><a href="/home/about">@_localization.Getkey("Welcome2").Value</a></li>
+                <li><a href="/home/generalservices">@_localization.Getkey("Footer11").Value</a></li>
+                <li><a href="/home/preference">@_localization.Getkey("Welcome9").Value</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    const currentYear = new Date().getFullYear();
+    const text = '@Html.Raw(_localization.Getkey("Footer12"))';
+    document.querySelector('#year').innerHTML = currentYear + ' ' + text;
+</script>

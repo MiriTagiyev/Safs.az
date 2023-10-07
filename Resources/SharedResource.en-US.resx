@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage" xml:space="preserve">
+    <value>&lt;span&gt;Hər bir biznes vahidi təsərrüfat fəaliyyətindəki əməliyyatların ilk əvvəl mövcud qanunvericiliyə və normativ hüquqi aktlara uyğun, başa düşülən və nəticəni düzgün əks etdirməyə vara biləcək uçot sisteminin olmasını arzu edir. Arzu etməyən Sahibkarlar sonrakı fikirlərimizi oxumaya bilərlər...&lt;/span&gt;
+                    Bu uçot sisteminin hər hansı fərdlərdən asılı olmamağı, insan faktorunun minimal olmağı, avtomatlaşmanın maksimum olmağı isə daha etibarlı daha dəqiq məlumatarın əks olunmağı deməkdir.</value>
+  </data>
+  <data name="AboutPage10" xml:space="preserve">
+    <value>Mükəlləfiyyət üzrə müvafiq dövlət xidmətləri orqanlarına hesabatların vaxtında, düzgün və risksiz təqdim olunmasına əmin olmaq</value>
+  </data>
+  <data name="AboutPage11" xml:space="preserve">
+    <value>Məhz bu uçot sistemi vasitəsi ilə dövlət xidməti orqanlarının yoxlama məqsədli suallarının, məktublarının, müraciətlərinin operativ və əsaslandırılmış rəqəmlərlə cavablandırılması</value>
+  </data>
+  <data name="AboutPage12" xml:space="preserve">
+    <value>Maliyyə ili üzrə yalnış olmayan, idarəedənlərin biznesi görmək istədikləri kimi yox məhz idarəetmənin nəticəsinə əsaslanan maliyyə məlumatlarının maraqlı tərəflərə təqdim olunması</value>
+  </data>
+  <data name="AboutPage2" xml:space="preserve">
+    <value>Bu sahədə 10 illik təcrübəmizə əsaslanaraq deyə bilərik ki, avtomatlaşma və proqram təminatının tətbiqi zamanı istehsal, xidmət, satış sahələrində fəaliyyət göstərən müəssisələrin təsərrüfat fəaliyyətini öyrənməyimiz onların zəif, güclü, riskli və qeyri müəyyən tərəflərini aydınlaşdırmağa imkan vermiş və bunu öz fəaliyyətimizdə nəzərə alaraq daha mükəmməl tətbiqlərin hazırlanmasına və onların uçot sistemində idarə olunmasına nail olmuşuq.</value>
+  </data>
+  <data name="AboutPage3" xml:space="preserve">
+    <value>Bu qaydada uçotun aparılmağı bizə nə verir?</value>
+  </data>
+  <data name="AboutPage4" xml:space="preserve">
+    <value>Günlük əsasda müəssənin əməliyyatlarının əks olunması</value>
+  </data>
+  <data name="AboutPage5" xml:space="preserve">
+    <value>Operativ idarəetmə qərarlarının asan verilməsi</value>
+  </data>
+  <data name="AboutPage6" xml:space="preserve">
+    <value>Ay ərzində ayın nəticələri ilə bağlı düzgün proqnozun olması</value>
+  </data>
+  <data name="AboutPage7" xml:space="preserve">
+    <value>Cari ayın nəticələrini, ay bitdikdən sonra bir iki günə əldə etmək şansı</value>
+  </data>
+  <data name="AboutPage8" xml:space="preserve">
+    <value>Fəaliyyətinizin nəticəsinin daha tez yoxlanması və real, etibarlı rəqəmlər olmağına əminlik</value>
+  </data>
+  <data name="AboutPage9" xml:space="preserve">
+    <value>Rüblük əsasda uçot məlumatlarının hesabatlılığı ilə cari ilin nəticələrinə qədər biznes əməliyyatları istiqamətində optimallaşmalar, dəyişikliklər və s əsaslı qərarlar vermək</value>
+  </data>
+  <data name="AboutSection" xml:space="preserve">
+    <value>HAQQIMIZDA</value>
+  </data>
+  <data name="AboutSection2" xml:space="preserve">
+    <value>Hər bir biznes vahidi təsərrüfat fəaliyyətindəki əməliyyatların ilk əvvəl mövcud
+                qanunvericiliyə və normativ hüquqi aktlara uyğun, başa düşülən və nəticəni
+                düzgün əks etdirməyə vara biləcək uçot sisteminin olmasını arzu edir. &lt;span&gt;Arzu etməyən Sahibkarlar sonrakı fikirlərimizi oxumaya bilər... &lt;/span&gt;</value>
+  </data>
+  <data name="AboutSection3" xml:space="preserve">
+    <value>Bu sahədə 10 illik təcrübəmizə əsaslanaraq deyə bilərik ki, avtomatlaşma və proqram təminatının tətbiqi zamanı istehsal, xidmət, satış sahələrində fəaliyyət göstərən müəssisələrin təsərrüfat fəaliyyətini öyrənməyimiz onların zəif,
+                güclü, riskli və qeyri müəyyən tərəflərini aydınlaşdırmağa imkan vermiş .</value>
+  </data>
+  <data name="accountingpage" xml:space="preserve">
+    <value>Müəssisələrin uçot siyasəti</value>
+  </data>
+  <data name="accountingpage2" xml:space="preserve">
+    <value>Dəyərli Sahibkarlar, Sizləri əmin edə bilərik ki günümüzdə uçot siyasəti olmadan fəaliyyət göstərən kifayət qədər kiçik, orta və iri sahibkarlıq subyektləri vardır. Düzdür, bizneslər uçot siyasəti olmadan da idarə olunur, nəzarət edilir, gəlir gətirir və s. Maraqlıdır bəs Uçot siyasəti nədir? Kimə, nəyə, nə üçün lazımdır? Mühasibat uçotu haqqında qanunumuza baxsaq - Uçot siyasəti - maliyyə hesabatlarının hazırlanması və təqdim edilməsi zamanı mühasibat uçotu subyektləri tərəfindən tətbiq edilən konkret prinsiplər, əsaslar, şərtlər və yanaşmalardır.</value>
+  </data>
+  <data name="accountingpage3" xml:space="preserve">
+    <value>Bu prinsiplərə, əsaslara, şərtlərə hər bir müəssisədə fərqli yanaşılır. Bu yanaşma ilə uçot əməliyyatları əks olunur, hesabatlar təqdim edilir və nəticədə fikir ayrılıqları ilə düzgün və ya səhv olan Maliyyə nəticələri müzakirə edilir... Lakin daha professional Sahibkarlar belə yanaşmamalıdır. Sizlərə tətbiq edəcəyimiz müasir, mövcud qanunvericilik aktları əsasında hazırlanmış proqram təminatı vasitəsi ilə Uçot siyasəti avtomatik tərtib olunur, müzakirə edilir, spesifik fəaliyyət miqyası nəzərə alınır və təsdiq edilir. Artıq fəaliyyətin maliyyə nəticələri ilə bağlı iş mexanizmi – uçot siyasəti müzakirə olunmur. Resurs və imkanlar digər məqamlara fokuslanır.</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Ünvan</value>
+  </data>
+  <data name="Footer1" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Footer10" xml:space="preserve">
+    <value>Ad,Soyad</value>
+  </data>
+  <data name="Footer11" xml:space="preserve">
+    <value>Xidmətlər</value>
+  </data>
+  <data name="Footer12" xml:space="preserve">
+    <value>«Siesco» - Bütün hüquqlar qorunur.</value>
+  </data>
+  <data name="Footer2" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Footer3" xml:space="preserve">
+    <value>&lt;span&gt;GERİ&lt;/span&gt; ZƏNG MÜRACİƏTİ</value>
+  </data>
+  <data name="Footer4" xml:space="preserve">
+    <value>Məsləhətçilərimizdən biri ilə telefonda danışmaq istərdinizmi? &lt;br&gt; Sadəcə məlumatlarınızı göndərin, qısa müddətdə əlaqə saxlayacağıq. Həmçinin istəsəniz bizə email göndərə bilərsiniz.</value>
+  </data>
+  <data name="Footer5" xml:space="preserve">
+    <value>Müzakirə etmək istərdim:</value>
+  </data>
+  <data name="Footer6" xml:space="preserve">
+    <value>Maliyyə və ya vergi uçotu</value>
+  </data>
+  <data name="Footer7" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="Footer8" xml:space="preserve">
+    <value>Vergi və ya Hüquqi məsləhət</value>
+  </data>
+  <data name="Footer9" xml:space="preserve">
+    <value>Digər</value>
+  </data>
+  <data name="generalservices" xml:space="preserve">
+    <value>Mühasibat və vergi uçotunun aparılması</value>
+  </data>
+  <data name="generalservices10" xml:space="preserve">
+    <value>Hər bir müəssisənin daşınan və daşınmaz əmlakı işlərin idarəedilməsində əsas vasitədir. İnventarlarla bağlı qərarlar yalnız inventarizasiya nəticələrinə əsasən verilir. Maddi, qeyri maddi, qısa müddətli və ya uzun müddətli inventarların uçot məlumatları ilə faktiki sayım məlumatlarının müqayisəsi isə öz effektivliyini daxildəki əməkdaşlara yox kənar şəxslərlə (tərəfsiz) işləyəndə göstərir.</value>
+  </data>
+  <data name="generalservices11" xml:space="preserve">
+    <value>Daxili auditin keçirilməsi</value>
+  </data>
+  <data name="generalservices12" xml:space="preserve">
+    <value>Təsərrüfat əməliyyatların icraçısı kimi maraqlı tərəfləri təmin edən zaman bilməyərəkdən və ya bilərəkdən tərif olunmuş əməliyyatlar uçot registrlərində əks olunur. Daxili auditin keçirilməsi isə Sizlərə əminlik verir. Arxayın oluruq ki bilərəkdən edilənlər düzəldildi və cəzalandı, bilməyərəkdən edilənlər də düzəldildi və təlimə cəlb edildi.</value>
+  </data>
+  <data name="generalservices13" xml:space="preserve">
+    <value>Audit rəyinin hazırlanması və təsdiqi</value>
+  </data>
+  <data name="generalservices14" xml:space="preserve">
+    <value>Mülki məcəlləyə baxsaq: 91.4. Məhdud məsuliyyətli cəmiyyət (mikro və kiçik sahibkarlıq subyektləri istisna olmaqla) illik maliyyə hesabatlarının düzgünlüyünü yoxlatmaq üçün hər il müstəqil auditor cəlb etməlidir (kənar audit). Cəmiyyətin illik maliyyə hesabatlarının auditor yoxlanışı hər hansı iştirakçının tələbi ilə də aparıla bilər. Bu halda auditor yoxlanışı həmin yoxlamanı tələb edən iştirakçının hesabına aparılır. Cəmiyyətin fəaliyyətinin auditor yoxlanışlarının aparılması qaydası qanunvericilik və cəmiyyətin nizamnaməsi ilə müəyyənləşdirilir. Burada illik audit rəyi mikro və kiçik sahibkarlı subyektləri istisna olmaqla bütün subyektlərə şamil edilir. Bu məcburidir. Lakin könüllü distisna olan sahibkarlıq subyektləridə müstəqil audit rəyini ala bilərlər.</value>
+  </data>
+  <data name="generalservices15" xml:space="preserve">
+    <value>Maliyyə hesabatlarının hazırlanması</value>
+  </data>
+  <data name="generalservices16" xml:space="preserve">
+    <value>Aylıq, rüblük, illik Maliyyə hesabatları hər bir sahibkar üçün maraqlıdır. Çünki təsərrüfat vasitələrinin əmələgəlmə mənbəsini, tərkibini və yerləşməsini Balans və ya Maliyyə vəziyyəti haqqında hesabatda, gəlirlə və ya zərərlə işləməyini Mənfəət və zərər hesabatında, pul kütləsinin axınını Pul vəsaitləri haqqında hesabatda, cəlb edilən kapitalın artıb və ya azalmasını isə Kapitalda dəyişikliklər haqqında hesabatda baxa bilər.</value>
+  </data>
+  <data name="generalservices2" xml:space="preserve">
+    <value>Təsərrüfat subyektlərində baş verən əməliyyatların əks olunması, onların mühasibat yazılışlarında qeydə alınması, zəruri uçot məlumatlarının milli mühasibat uçotu və mühasibat uçotu haqqında qanuna əsaslanaraq aparılması, vergilərin və digər öhdəliklərin düzgün hesablanması, vaxtında bəyannamələrin təqdim olunması və uçotun hər hansı qarşılıqlı, əlaqəli məlumatların etibarlı əldə edilməsi deməkdir.</value>
+  </data>
+  <data name="generalservices3" xml:space="preserve">
+    <value>İdarəetmə və maliyyə uçotunun aparılması</value>
+  </data>
+  <data name="generalservices4" xml:space="preserve">
+    <value>Sahibkarların özlərinə məxsus biznes yanaşmaları vardır ki bu da bəzən az bəzən isə çox fərqli uçot siyasətlərini formalaşdırır. İdarəetmə və maliyyə uçotu vasitəsi ilə qeyd olunan əks olunmaların daha uyğun, daha düzgün və etibarlı təzahürü uğurlu bizness qərarlarının verilməsinə dəstəkdir.</value>
+  </data>
+  <data name="generalservices5" xml:space="preserve">
+    <value>Uçotun bərpası və yenidən qurulması</value>
+  </data>
+  <data name="generalservices6" xml:space="preserve">
+    <value>Əksər vaxt Rəhbərlər, idarəedənlər müəssisənin bazar payının və biznesin əhatə dairəsinin genişləndirməyi və ya rəqabətliliyi qoruyub saxlamağı ön plana çəkərək işlərin irəlləməsinə nail olurlar. Lakin bu qət edilən yolda geriyə baxanda qarışıq uçot məlumatları və ya unudulan əks olunmayan məlumatlar növbəti inkişaf planlarını alt üzt edir. Uçotu postperiod vaxt ilə bərpa etmək, əməliyyatların əmələ gəlmə mənbələrini müəyyən etmək, tərkibini təyin edib düzgün yerləşdirmək uçotun bərpası və yenidən qurulmasını ehtiva edir.</value>
+  </data>
+  <data name="generalservices7" xml:space="preserve">
+    <value>Əmək haqqı və işçilərin idarəedilməsi</value>
+  </data>
+  <data name="generalservices8" xml:space="preserve">
+    <value>Müasir dövrdə müəssisələrdə insan kapitalı ən vacib elementdir. Onların idarəedilməsi, işçilərlə hesablaşmaların düzgünlüyü, onların qiymətləndirilməsi bir sözlə Kadrlar işi - modern sistemlərlə təmin olunaraq hər cür hesablaşmaları, əmək qanunvericiliyi və digər normativ hüquqi aktlarla işçilərin hüquqlarını qoruyur onların daha səmərli iş fəaliyyətini təmin edir.</value>
+  </data>
+  <data name="generalservices9" xml:space="preserve">
+    <value>İnventarizasiya işlərinin aparılması</value>
+  </data>
+  <data name="l1" xml:space="preserve">
+    <value>fr-FR</value>
+  </data>
+  <data name="l2" xml:space="preserve">
+    <value>ru-RU</value>
+  </data>
+  <data name="Lang1" xml:space="preserve">
+    <value>AZ</value>
+  </data>
+  <data name="Lang2" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="Lang3" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="PartnerPage" xml:space="preserve">
+    <value>Biz müştərilərimizə bizneslərini  uğura çatdırmaq üçün uyğunlaşdırılmış həllər təklif edirik.</value>
+  </data>
+  <data name="PartnerSection" xml:space="preserve">
+    <value>MÜŞTƏRİLƏRİMİZ</value>
+  </data>
+  <data name="preference" xml:space="preserve">
+    <value>Əməkdaşlığımızın faydaları nə olacaq:</value>
+  </data>
+  <data name="preference2" xml:space="preserve">
+    <value>Müasir dövrün tələblərinə uyğun avtomatlaşdırılmış uçot sistemi</value>
+  </data>
+  <data name="preference3" xml:space="preserve">
+    <value>Online uçot məlumatlarınızdan modern vasitələrlə xəbərdar olmaq</value>
+  </data>
+  <data name="preference4" xml:space="preserve">
+    <value>Online uçot məlumatları ilə bağlı suallar vermək</value>
+  </data>
+  <data name="preference5" xml:space="preserve">
+    <value>Bu sahə üzrə ixtisasaşdırılmış kadrların məlumat, məsləhət və tövsiyyələrini dinləmək</value>
+  </data>
+  <data name="preference6" xml:space="preserve">
+    <value>Aylıq, rüblük və illik maliyyə nəticələri ilə bağlı hesabatlardan: Balans, Mənfəət Zərər, Pul vəsaitlərinin hərəkəti və Kapitada dəyişiklər-xəbərdar olmaq</value>
+  </data>
+  <data name="preference7" xml:space="preserve">
+    <value>Zəruri hallarda beynəlxalq təcrübədə qəbul edilmiş maliyyə əmsalları ilə biznesinizin təhlili</value>
+  </data>
+  <data name="preference8" xml:space="preserve">
+    <value>İstəyə uyğun Vergi və İdarəetmə uçotunun ayrı ayrılıqda aparılması və müqayisəsi</value>
+  </data>
+  <data name="preference9" xml:space="preserve">
+    <value>Bəyan edilmiş hesabatları və uçot məlumatlarımızı dövlət xidməti orqanlarında təmsil etmək.</value>
+  </data>
+  <data name="ServicesSection" xml:space="preserve">
+    <value>XİDMƏTLƏRİMİZ</value>
+  </data>
+  <data name="ServicesSection10" xml:space="preserve">
+    <value>Dəyərli Sahibkarlar, Sizləri əmin edə bilərik ki günümüzdə uçot siyasəti olmadan fəaliyyət göstərən kifayət qədər kiçik, orta və iri sahibkarlıq subyektləri vardır.</value>
+  </data>
+  <data name="ServicesSection11" xml:space="preserve">
+    <value>Üstünlüyümüz fərq yaradır!</value>
+  </data>
+  <data name="ServicesSection12" xml:space="preserve">
+    <value>Bu üçlük, şirkətin strateji proseslərini detallı
+                        müəyyən edərək qısa və uzun müddətləri hədəfləri müəyyən edir. Bu prosess adətən şirkətin
+                        maliyyə departamenti tərəfindən baş maliyyə
+                        inzibatçısı tərəfindən idarə olunur. Böyük və
+                        həcmli komanda işinin əvəzinə anlaşılan və
+                        proqram dili ilə həll etmək əlimizdədir.</value>
+  </data>
+  <data name="ServicesSection2" xml:space="preserve">
+    <value>Ümumi Xidmətlərimiz</value>
+  </data>
+  <data name="ServicesSection3" xml:space="preserve">
+    <value>ÜMUMİ XİDMƏTLƏRİMİZ</value>
+  </data>
+  <data name="ServicesSection4" xml:space="preserve">
+    <value>Mühasibat uçotu və vergi uçotundan tutmuş idarəetmə və maliyyə mühasibatlığından işçilərin idarə olunmasına qədər ümumi xidmətlər təqdim edərək, biznesin bütün maliyyə və idarəetmə ehtiyaclarını hərtərəfli əhatə edirik.</value>
+  </data>
+  <data name="ServicesSection5" xml:space="preserve">
+    <value>Xüsusi Xidmətlərimiz</value>
+  </data>
+  <data name="ServicesSection6" xml:space="preserve">
+    <value>XÜSUSİ XİDMƏTLƏRİMİZ</value>
+  </data>
+  <data name="ServicesSection7" xml:space="preserve">
+    <value>Büdcələşdirmə, planlaşdırma və qiymətləndirmə sahələrində məsləhət xidmətlərimiz, xüsusi olaraq şirkətlərə təklif etdiyimiz  mühasib xidməti ilə birlikdə bizneslərə maliyyə strategiyalarının yaradılmasında və uğurla həyata keçirilməsində dəstək olur.</value>
+  </data>
+  <data name="ServicesSection8" xml:space="preserve">
+    <value>Müəssisələrin uçot siyasəti</value>
+  </data>
+  <data name="ServicesSection9" xml:space="preserve">
+    <value>MÜƏSSİSƏLƏRİN UÇOT SİYASƏTİ</value>
+  </data>
+  <data name="Slide" xml:space="preserve">
+    <value>MÜHASİBATLIQ VƏ MALİYYƏ XİDMƏTLƏRİ</value>
+  </data>
+  <data name="Slide2" xml:space="preserve">
+    <value>Hər bir biznes vahidi təsərrüfat fəaliyyətindəki əməliyyatların ilk əvvəl mövcud qanunvericiliyə və normativ hüquqi aktlara uyğun, başa düşülən və nəticəni düzgün əks etdirməyə vara biləcək uçot sisteminin olmasını arzu edir. Arzu etməyən Sahibkarlar sonrakı fikirlərimizi oxumaya bilərlər...</value>
+  </data>
+  <data name="Slide3" xml:space="preserve">
+    <value>İDARƏETMƏ VƏ MALİYYƏ UÇOTUNUN APARILMASI</value>
+  </data>
+  <data name="Slide4" xml:space="preserve">
+    <value>Sahibkarların özlərinə məxsus bizness yanaşmaları vardır ki bu da bəzən az bəzən isə çox fərqli uçot siyasətlərini formalaşdırır. İdarəetmə və maliyyə uçotu vasitəsi ilə qeyd olunan əks olunmaların daha uyğun, daha düzgün və etibarlı təzahürü uğurlu biznes qərarlarının verilməsinə dəstəkdir.</value>
+  </data>
+  <data name="Slide5" xml:space="preserve">
+    <value>AUDİT RƏYİNİN HAZIRLANMASI VƏ TƏSDİQİ</value>
+  </data>
+  <data name="Slide6" xml:space="preserve">
+    <value>Mülki məcəlləyə baxsaq: 91.4. Məhdud məsuliyyətli cəmiyyət (mikro və kiçik sahibkarlıq subyektləri istisna olmaqla) illik maliyyə hesabatlarının düzgünlüyünü yoxlatmaq üçün hər il müstəqil auditor cəlb etməlidir (kənar audit). Cəmiyyətin illik maliyyə hesabatlarının auditor yoxlanışı hər hansı iştirakçının tələbi ilə də aparıla bilər.</value>
+  </data>
+  <data name="specialservices" xml:space="preserve">
+    <value>Personal mühasib xidməti</value>
+  </data>
+  <data name="specialservices10" xml:space="preserve">
+    <value>Kiçik və orta bizness sahibləri rəqabətlilik şəraitini və maliyyə nəticələrini düzgün qiymətləndirmək üçün maliyyə hesabatlarına ehtiyac duyur. Əksər hallarda bunu baş mühasiblər müəyyən mühasibat hesabatlılığına uyğun tərtib edir və Rəhbərliyə təqdim edirlər. Lakin bu o deyil. Maliyyə direktoru isə artıq rəhbər işçi, artıq xərc kimi görsənir. Mühasiblər əməliyyatları işləyir, baş mühasib onların əks olunmalarını və ayın bağlanmasını tamamlayır, cəlb edilən maliyyə direktoru xidməti isə etibarlı, standartlara cavab verən maliyyə hesabatları ilə Sizləri tanış edir.</value>
+  </data>
+  <data name="specialservices11" xml:space="preserve">
+    <value>Büdcə, planlama və proqnoz xidmətləri</value>
+  </data>
+  <data name="specialservices12" xml:space="preserve">
+    <value>Bu üçlük, şirkətin strateji proseslərini detallı müəyyən edərək qısa və uzun müddətləi hədəfləri müəyyən edir. Bu prosess adətən şirkətin maliyyə departamenti tərəfindən baş maliyyə inzibatçısı tərəfindən idarə olunur. Böyük və həcmli komanda işinin əvəzinə anlaşılan və proqram dili ilə həll etmək əlimizdədir.</value>
+  </data>
+  <data name="specialservices2" xml:space="preserve">
+    <value>İş şəraitindən, mövcud kadr ehtiyatından, ayrılmış büdcədən və ya digər səbəblərdən artan iş yükünü həmən paylaşmaq, uçot məlumatlarını vaxtında əks etdirmək və ya xüsusi tapşırılmış mühasib işlərini görmək zərurəti yaranan zaman bu hal əla seçimdir.</value>
+  </data>
+  <data name="specialservices3" xml:space="preserve">
+    <value>Sahibkarın online uçot məlumatları ilə təmini</value>
+  </data>
+  <data name="specialservices4" xml:space="preserve">
+    <value>Əməliyyat qərarlarının verilməsi üçün Sahibkarlar çox vaxt hansısa rəqəmi soruşur və ya hansısa qalıqla maraqlanır. Məsul şəxs əlçatan olmayanda və ya onun məlumatlara baxıb yenidən geri dönüş edəcəyi halında isə operativlik itir və əmliyyat qərarları gecikir. Heç kimdən asılı olmayaraq bir toxunuşla əməliyyat qərarlarını verə biləcək qədər informativ həllər var.</value>
+  </data>
+  <data name="specialservices5" xml:space="preserve">
+    <value>Bİ analitika xidməti</value>
+  </data>
+  <data name="specialservices6" xml:space="preserve">
+    <value>Biznes kəşfiyyatı (BI) analitiki - biznesin inkişafı və təkmilləşdirilməsi üçün tövsiyələri müəyyən etmək üçün şirkət daxilində mürəkkəb məlumat dəstlərini təhlil edərək bunu edir. Şirkətin məlumatları emal edilərək arzu olunan, başa düşülən və vizual açıqlamaları ilə qarşınızda olur.</value>
+  </data>
+  <data name="specialservices7" xml:space="preserve">
+    <value>Baş mühasib xidməti</value>
+  </data>
+  <data name="specialservices8" xml:space="preserve">
+    <value>Mikro və bəzi kiçik sahibkarlıq subyektləri əksər hallarda ağır artileriya sayılan baş mühasibi daim yanında saxlamaq onun nəzarətində mühasib – operatorların işlərinə arxayın olmaq imkanına malik olmur. Həmçinin öz mühaibatlığının olmasınıda arzu edir, lakin narahatdır. Bu halda ən mükəmməl seçim baş mühasib xidmətidir.</value>
+  </data>
+  <data name="specialservices9" xml:space="preserve">
+    <value>Maliyyə direktoru xidməti</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Ana səhifə</value>
+  </data>
+  <data name="Welcome10" xml:space="preserve">
+    <value>Əlaqə</value>
+  </data>
+  <data name="Welcome11" xml:space="preserve">
+    <value>Göndər</value>
+  </data>
+  <data name="Welcome12" xml:space="preserve">
+    <value>Ətraflı</value>
+  </data>
+  <data name="Welcome13" xml:space="preserve">
+    <value>Bakı şəh., Əhməd Rəcəbli küç.183</value>
+  </data>
+  <data name="Welcome2" xml:space="preserve">
+    <value>Haqqımızda</value>
+  </data>
+  <data name="Welcome3" xml:space="preserve">
+    <value>Şirkət Haqqında</value>
+  </data>
+  <data name="Welcome4" xml:space="preserve">
+    <value>Müştərilərimiz</value>
+  </data>
+  <data name="Welcome5" xml:space="preserve">
+    <value>Xidmətlərimiz</value>
+  </data>
+  <data name="Welcome6" xml:space="preserve">
+    <value>Ümumi xidmətlərimiz</value>
+  </data>
+  <data name="Welcome7" xml:space="preserve">
+    <value>Xüsusi xidmətlərimiz</value>
+  </data>
+  <data name="Welcome8" xml:space="preserve">
+    <value>Uçot siyasəti</value>
+  </data>
+  <data name="Welcome9" xml:space="preserve">
+    <value>Üstünlük</value>
+  </data>
+</root>

@@ -1,0 +1,111 @@
+﻿<div class="container-header">
+    <div class="nav-info">
+        <div class="nav-menu-wrapper">
+            <div class="nav-text">@_localization.Getkey("Welcome13").Value</div>
+            <div class="nav-contact">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+994508543939">+994508543939</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:office@siesco.az">office@safs.az</a>
+                    </li>
+                    <li class="contact-li">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/safs-consulting/?viewAsMember=true"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/" class="nav__logo">
+                    <img src="/img/Logo1.png" alt="SAFS">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="/" class="nav__link">@_localization.Getkey("Welcome").Value</a></li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            @_localization.Getkey("Welcome2").Value <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="/home/about" class="dropdown__link">
+                                    <i class="ri-user-line"></i> @_localization.Getkey("Welcome3").Value
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/home/partner" class="dropdown__link">
+                                    <i class="ri-suitcase-fill"></i> @_localization.Getkey("Welcome4").Value
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            @_localization.Getkey("Welcome5").Value <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="/home/generalservices" class="dropdown__link">
+                                    <i class="ri-blaze-line"></i> @_localization.Getkey("Welcome6").Value
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/home/specialservices" class="dropdown__link">
+                                    <i class="ri-check-double-line"></i> @_localization.Getkey("Welcome7").Value
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/home/accounting" class="dropdown__link">
+                                    <i class="ri-filter-3-line"></i> @_localization.Getkey("Welcome8").Value
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/home/preference" class="nav__link">@_localization.Getkey("Welcome9").Value</a></li>
+                    <li><a href="#" id="contact__link" class="nav__link">@_localization.Getkey("Welcome10").Value</a></li>
+                   <li id="lang" class="dropdown__item">
+                        <div id="nav-lang" class="nav__link">
+                            <a asp-controller="Home"
+                               asp-action="ChangeLanguage"
+                               asp-route-culture="en-US">
+                                <span>@_localization.Getkey("Lang1")</span> <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                             </a>
+                                
+                        </div>
+
+                        <ul id="dropdown-lang" class="dropdown__menu">
+                            <li>
+                                <a asp-controller="Home"
+                                   asp-action="ChangeLanguage"
+                                   asp-route-culture="@_localization.Getkey("l1")" class="dropdown__link">
+                                    @_localization.Getkey("Lang2")
+                                </a>
+                                <a asp-controller="Home" 
+                                            asp-action="ChangeLanguage"
+                                   asp-route-culture="@_localization.Getkey("l2")" class="dropdown__link">
+                                    @_localization.Getkey("Lang3")
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>

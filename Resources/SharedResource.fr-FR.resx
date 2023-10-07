@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage" xml:space="preserve">
+    <value>&lt;span&gt;Every business unit could do with an accounting system that is capable of registering its economic activity in accordance with the existing legislation and regulations, as well as reflecting its results in a comprehensible and accurate manner. Entrepreneurs who don't think so, may discontinue reading…&lt;/span&gt;  
+                   And if such accounting system is also independent of any individuals, minimizes the human factor, and maximizes automation, it would provide for more reliable and accurate information.</value>
+  </data>
+  <data name="AboutPage10" xml:space="preserve">
+    <value>Ensuring timely, correct and risk-free submission of mandatory reports to relevant public authorities</value>
+  </data>
+  <data name="AboutPage11" xml:space="preserve">
+    <value>Answering inspection related questions, letters and appeals of public authorities with prompt and substantiated figures solely through this accounting system</value>
+  </data>
+  <data name="AboutPage12" xml:space="preserve">
+    <value>Providing stakeholders with financial information for the financial year that is accurate and based on the results of management rather than the will of the managersı</value>
+  </data>
+  <data name="AboutPage2" xml:space="preserve">
+    <value>Based on the 10-year experience in this sphere, we can say that studying the economic activity of enterprises operating in the fields of production, service and sales during automation and software application has allowed us to recognize their weak, strong, risky and uncertain aspects. Taking this into account in our own activities, we have managed to develop more sophisticated applications and manage them in the accounting system.</value>
+  </data>
+  <data name="AboutPage3" xml:space="preserve">
+    <value>What are the advantages of such accounting system?</value>
+  </data>
+  <data name="AboutPage4" xml:space="preserve">
+    <value>Reflecting the operations of the enterprise on a daily basis</value>
+  </data>
+  <data name="AboutPage5" xml:space="preserve">
+    <value>Making operational management decisions easier</value>
+  </data>
+  <data name="AboutPage6" xml:space="preserve">
+    <value>Having a reliable forecast on monthly results at any point during the month</value>
+  </data>
+  <data name="AboutPage7" xml:space="preserve">
+    <value>An opportunity to get the results for the current month within a day or two after its end</value>
+  </data>
+  <data name="AboutPage8" xml:space="preserve">
+    <value>Faster verification of the results of your activity and ensuring real, reliable numbers</value>
+  </data>
+  <data name="AboutPage9" xml:space="preserve">
+    <value>Making informed quarterly decisions on business operations in terms of optimizations, changes, etc. based on the accounting data up to the results of the current year</value>
+  </data>
+  <data name="AboutSection" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="AboutSection2" xml:space="preserve">
+    <value>Every business unit could do with an accounting system that is capable of registering its economic activity in accordance with the existing legislation and regulations, as well as reflecting its results in a comprehensible and accurate manner. &lt;span&gt;Entrepreneurs who don't think so, may discontinue reading…&lt;/span&gt;</value>
+  </data>
+  <data name="AboutSection3" xml:space="preserve">
+    <value>Based on the 10-year experience in this sphere, we can say that studying the economic activity of enterprises operating in the fields of production, service and sales during automation and software application has allowed us to recognize their weak, strong, risky and uncertain aspects. Taking this into account in our own activities, we have managed to develop more sophisticated applications and manage them in the accounting system.</value>
+  </data>
+  <data name="accountingpage" xml:space="preserve">
+    <value>Accounting policy of enterprises</value>
+  </data>
+  <data name="accountingpage2" xml:space="preserve">
+    <value>Dear entrepreneurs,We can assure you that today there are many small, medium and large business entities operating without an accounting policy. It is true that businesses can be managed, controlled and make profits without accounting policies. What is the Accounting Policy then? Who needs it? What is it for? And why do you need it? 
+According to our law on accounting - Accounting policy is a set of specific principles, bases, conditions and approaches applied by accounting entities during the preparation and presentation of financial statements.</value>
+  </data>
+  <data name="accountingpage3" xml:space="preserve">
+    <value>Such principles, bases, and conditions are treated differently by each enterprise. This approach is the means through which accounting transactions are reflected, reports are presented and financial results, which may be right or wrong, are discussed... 
+But more professional entrepreneurs should have a different approach.
+With the help of software developed on the basis of modern, current legal acts, which we will apply to your systems, the Accounting policy will be automatically drawn up and discussed, the scale of specific activity will be considered and approved. The working principle - accounting policy related to the financial results of the activity will no longer be discussed. Resources and capabilities are focused on other scopes.</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Footer1" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Footer10" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Footer11" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Footer12" xml:space="preserve">
+    <value>"Siesco" - All rights reserved.</value>
+  </data>
+  <data name="Footer2" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Footer3" xml:space="preserve">
+    <value>&lt;span&gt;Callback&lt;/span&gt; request</value>
+  </data>
+  <data name="Footer4" xml:space="preserve">
+    <value>Want a phone call with one of our consultants? &lt;br&gt; Leave your details and we will contact you as soon as possible. You can also send us an email.</value>
+  </data>
+  <data name="Footer5" xml:space="preserve">
+    <value>Discuss a Topic</value>
+  </data>
+  <data name="Footer6" xml:space="preserve">
+    <value>Financial or Tax Accounting</value>
+  </data>
+  <data name="Footer7" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="Footer8" xml:space="preserve">
+    <value>Tax or Legal Advice</value>
+  </data>
+  <data name="Footer9" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="generalservices" xml:space="preserve">
+    <value>Accounting and tax accounting</value>
+  </data>
+  <data name="generalservices10" xml:space="preserve">
+    <value>The movable and immovable property of every enterprise is the main asset in the management of affairs. Decisions about inventories are made only based on the results of the stocktake. The comparison of accounting data of tangible, intangible, short-term or long-term assets with the actual count data demonstrates its effectiveness when working with (neutral) outsiders rather than with internal employees.</value>
+  </data>
+  <data name="generalservices11" xml:space="preserve">
+    <value>Internal audits</value>
+  </data>
+  <data name="generalservices12" xml:space="preserve">
+    <value>Transactions that have been misrepresented, whether knowingly or unknowingly, are reflected in the accounting registers when the enterprise provides info to the stakeholders as the executor of the transactions. Conducting an internal audit gives you confidence. You rest assured that those who did it knowingly were corrected and punished, and those who did it unknowingly were also corrected and involved in training.</value>
+  </data>
+  <data name="generalservices13" xml:space="preserve">
+    <value>Preparation and approval of audit report</value>
+  </data>
+  <data name="generalservices14" xml:space="preserve">
+    <value>According to the Civil Code: 91.4. A limited liability company (except for micro and small business entities) must engage an independent auditor annually to verify the accuracy of its annual financial statements (external audit). The audit of the company's annual financial reports can be conducted at the request of any stakeholder. In this case, the audit is performed at the expense of the stakeholder who requested the audit. The procedure for conducting audits of the company's activities is determined by legislation and the company's charter.The annual audit report applies to all entities except micro and small business entities. This is mandatory. However, business entities can also receive an independent audit report voluntarily.</value>
+  </data>
+  <data name="generalservices15" xml:space="preserve">
+    <value>Financial statement preparation</value>
+  </data>
+  <data name="generalservices16" xml:space="preserve">
+    <value>Monthly, quarterly, annual financial reports are interesting for every entrepreneur: they can see the source, composition and location of economic assets in the Balance Sheet, whether it operates at a profit or a loss in the Income Statement, the flow of money in the Cash Flow Statement, and weather the capital involved has increased or decreased in the Retained Earnings Statement.</value>
+  </data>
+  <data name="generalservices2" xml:space="preserve">
+    <value>Reflecting the transactions of economic entities means registering them in accounting records, maintaining the necessary accounting data based on the national accounting standards and the Law on Accounting, correct calculation of taxes and other obligations, timely submission of declarations and reliable acquisition of any reciprocal, related accounting information.</value>
+  </data>
+  <data name="generalservices3" xml:space="preserve">
+    <value>Managerial and financial accounting</value>
+  </data>
+  <data name="generalservices4" xml:space="preserve">
+    <value>Entrepreneurs have their own business approaches, which sometimes lead to slightly or greatly different accounting policies. A more appropriate, accurate and reliable manifestation of the records registered through managerial and financial accounting benefits successful business decision-making.</value>
+  </data>
+  <data name="generalservices5" xml:space="preserve">
+    <value>Recovery and reconstruction of accounting</value>
+  </data>
+  <data name="generalservices6" xml:space="preserve">
+    <value>Most of the time, officers and managers achieve progress by focusing on expanding the enterprise's market share and business scope or maintaining competitiveness. But looking back on this path, inaccurate accounting data or forgotten and unreflected data undermines further development plans. The restoration and reconstruction of accounting includes restoring accounting with postperiod time, determining the sources of transactions, as well as locating them correctly by defining their composition.</value>
+  </data>
+  <data name="generalservices7" xml:space="preserve">
+    <value>Payroll and employee management</value>
+  </data>
+  <data name="generalservices8" xml:space="preserve">
+    <value>Human resources are currently the most important element in enterprises. Their management, assessment, the correctness of settlements with employees or in short, the HR work is provided with modern systems to protect all kinds of settlements and the rights of employees through labor legislation and other normative legal acts and ensure their more efficient work.</value>
+  </data>
+  <data name="generalservices9" xml:space="preserve">
+    <value>Stocktake</value>
+  </data>
+  <data name="l1" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="l2" xml:space="preserve">
+    <value>ru-RU</value>
+  </data>
+  <data name="Lang1" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="Lang2" xml:space="preserve">
+    <value>AZ</value>
+  </data>
+  <data name="Lang3" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="PartnerPage" xml:space="preserve">
+    <value>We offer our clients tailor-made solutions to help them succeed in their business.</value>
+  </data>
+  <data name="PartnerSection" xml:space="preserve">
+    <value>OUR CUSTOMERS</value>
+  </data>
+  <data name="preference" xml:space="preserve">
+    <value>Your benefits from cooperating with us:</value>
+  </data>
+  <data name="preference2" xml:space="preserve">
+    <value>Automated accounting system that meet the modern requirements</value>
+  </data>
+  <data name="preference3" xml:space="preserve">
+    <value>Keeping track of your online accounting information with modern tools</value>
+  </data>
+  <data name="preference4" xml:space="preserve">
+    <value>Having your questions about online accounting information answered</value>
+  </data>
+  <data name="preference5" xml:space="preserve">
+    <value>Getting information, advice and recommendations from personnel qualified in this field</value>
+  </data>
+  <data name="preference6" xml:space="preserve">
+    <value>Stay informed on reports related to monthly, quarterly and annual financial results: Balance Sheet, Income Statement, Cash Flow Statement and Retained Earnings Statement</value>
+  </data>
+  <data name="preference7" xml:space="preserve">
+    <value>Analysis of your business with internationally accepted financial ratios, if necessary</value>
+  </data>
+  <data name="preference8" xml:space="preserve">
+    <value>Separate tax and management accounting and comparison on request</value>
+  </data>
+  <data name="preference9" xml:space="preserve">
+    <value>Representation of declared reports and accounting information before public authorities.</value>
+  </data>
+  <data name="ServicesSection" xml:space="preserve">
+    <value>OUR SERVICES</value>
+  </data>
+  <data name="ServicesSection10" xml:space="preserve">
+    <value>Dear entrepreneurs,We can assure you that today there are many small, medium and large business entities operating without an accounting policy.</value>
+  </data>
+  <data name="ServicesSection11" xml:space="preserve">
+    <value>Our advantages make the difference!</value>
+  </data>
+  <data name="ServicesSection12" xml:space="preserve">
+    <value>This triad shapes the company's strategic processes in detail defining short- and long-term goals. This process is usually managed by the chief financial officer and the company's finance department. We are in a position to offer an understandable and software-based solution instead of large and bulky teamwork.</value>
+  </data>
+  <data name="ServicesSection2" xml:space="preserve">
+    <value>General Services</value>
+  </data>
+  <data name="ServicesSection3" xml:space="preserve">
+    <value>GENERAL SERVICES</value>
+  </data>
+  <data name="ServicesSection4" xml:space="preserve">
+    <value>We comprehensively cover all the financial and management needs of a business providing general services from accounting and tax accounting to managerial and financial accounting, as well as employee management.</value>
+  </data>
+  <data name="ServicesSection5" xml:space="preserve">
+    <value>Special Services</value>
+  </data>
+  <data name="ServicesSection6" xml:space="preserve">
+    <value>SPECIAL SERVICES</value>
+  </data>
+  <data name="ServicesSection7" xml:space="preserve">
+    <value>Our consulting services in budgeting, planning and forecasting, together with the specific accounting services we offer to companies, support businesses in creating and successfully implementing financial strategies.</value>
+  </data>
+  <data name="ServicesSection8" xml:space="preserve">
+    <value>Accounting policy of enterprises</value>
+  </data>
+  <data name="ServicesSection9" xml:space="preserve">
+    <value>ACCOUNTING POLICY OF ENTERPRISES</value>
+  </data>
+  <data name="Slide" xml:space="preserve">
+    <value>ACCOUNTING AND FINANCIAL SERVICES</value>
+  </data>
+  <data name="Slide2" xml:space="preserve">
+    <value>Every business unit could do with an accounting system that is capable of registering its economic activity in accordance with the existing legislation and regulations, as well as reflecting its results in a comprehensible and accurate manner. Entrepreneurs who don't think so, may discontinue reading…</value>
+  </data>
+  <data name="Slide3" xml:space="preserve">
+    <value>Managerial and financial accounting</value>
+  </data>
+  <data name="Slide4" xml:space="preserve">
+    <value>Entrepreneurs have their own business approaches, which sometimes lead to slightly or greatly different accounting policies. A more appropriate, accurate and reliable manifestation of the records registered through managerial and financial accounting benefits successful business decision-making.</value>
+  </data>
+  <data name="Slide5" xml:space="preserve">
+    <value>Preparation and approval of audit report</value>
+  </data>
+  <data name="Slide6" xml:space="preserve">
+    <value>According to the Civil Code: 91.4. A limited liability company (except for micro and small business entities) must engage an independent auditor annually to verify the accuracy of its annual financial statements (external audit). The audit of the company's annual financial reports can be conducted at the request of any stakeholder.</value>
+  </data>
+  <data name="specialservices" xml:space="preserve">
+    <value>Personal accountant service</value>
+  </data>
+  <data name="specialservices10" xml:space="preserve">
+    <value>Small and medium-sized business owners need financial statements to properly assess competitive conditions and financial results. In most cases, they are compiled by chief accountants in accordance with certain accounting reporting and submitted to the management. But it doesn’t do. And the CFO is seen as an extra employee, an excess cost. Accountants run the transactions, the chief accountant ensures their reflections and month-end close, and the engaged CFO service provides you with reliable financial statements that comply with the standards.</value>
+  </data>
+  <data name="specialservices11" xml:space="preserve">
+    <value>Budgeting, planning and forecasting services</value>
+  </data>
+  <data name="specialservices12" xml:space="preserve">
+    <value>This triad shapes the company's strategic processes in detail defining short- and long-term goals. This process is usually managed by the chief financial officer and the company's finance department. We are in a position to offer an understandable and software-based solution instead of large and bulky teamwork.</value>
+  </data>
+  <data name="specialservices2" xml:space="preserve">
+    <value>This is an excellent choice when there is a need to immediately share increased workloads due to business conditions, available staff, allocated budget or other reasons, as well as to record accounting information on time or perform specially commissioned accounting work.</value>
+  </data>
+  <data name="specialservices3" xml:space="preserve">
+    <value>Provision of the entrepreneur’s online accounting information</value>
+  </data>
+  <data name="specialservices4" xml:space="preserve">
+    <value>Entrepreneurs often ask for a figure or get interested in a balance in order to make operational decisions. When the person in charge is not available or if they have to look up the information and return with the results, efficiency is lost and operational decisions are delayed. There are solutions that are informative enough to make one-touch operational decisions independent of anyone.</value>
+  </data>
+  <data name="specialservices5" xml:space="preserve">
+    <value>BI analytics service</value>
+  </data>
+  <data name="specialservices6" xml:space="preserve">
+    <value>A business intelligence (BI) analyst analyzes complex data sets within a company to identify recommendations for business development and improvement. The company data is processed and presented with desirable, understandable and visual explanations.</value>
+  </data>
+  <data name="specialservices7" xml:space="preserve">
+    <value>Chief accountant service</value>
+  </data>
+  <data name="specialservices8" xml:space="preserve">
+    <value>Micro and some small business entities do not have the opportunity to constantly employ a big gun like a chief accountant and stay confident in the work of regular accountants and operators who are under the control of a senior staff. They also wish to have their own accounting, but are worried. In such cases, the chief accountant service is a perfect option.</value>
+  </data>
+  <data name="specialservices9" xml:space="preserve">
+    <value>CFO service</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="Welcome10" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Welcome11" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Welcome12" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="Welcome13" xml:space="preserve">
+    <value>Baku city, Ahmed Rajabli street 183</value>
+  </data>
+  <data name="Welcome2" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="Welcome3" xml:space="preserve">
+    <value>About the Company</value>
+  </data>
+  <data name="Welcome4" xml:space="preserve">
+    <value>Our Customers</value>
+  </data>
+  <data name="Welcome5" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="Welcome6" xml:space="preserve">
+    <value>General Services</value>
+  </data>
+  <data name="Welcome7" xml:space="preserve">
+    <value>Special Services</value>
+  </data>
+  <data name="Welcome8" xml:space="preserve">
+    <value>Accounting Policy</value>
+  </data>
+  <data name="Welcome9" xml:space="preserve">
+    <value>Advantages</value>
+  </data>
+</root>
